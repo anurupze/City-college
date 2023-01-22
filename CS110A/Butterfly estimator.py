@@ -6,11 +6,11 @@ Written by : Anurup
 Date : 01/21/2023
 '''
 
-print("Butterfly Estimates\n")
+print("Butterfly Estimator\n")
 
 # creating variables that takes in user input for total number of male and female butterflies.
-males = int(input("Enter the Estimated number of male butterflies: "))
-females = int(input("Enter the Estimated number of female butterflies: "))
+males = int(input("Enter the estimated number of male butterflies: "))
+females = int(input("Enter the estimated number of female butterflies: "))
 
 # Performing necessary calculations to get the desired outputs.
 
@@ -42,7 +42,7 @@ print("mating_pairs : " , mating_pairs)
 '''
 The variance is calculated as the average of the squared differences from the mean.
 The formula for variance is (Xi - mean)^2 / n where Xi is the value of ith data point and n is the total number of data points.
-In this case, we have two data pointsand we used the mean of these two data points as the average for variance calculation.
+In this case, we have two data points and we used the mean of these two data points as the average for variance calculation.
 '''
 '''
 This activity is to get familiar with the math operators in python.
